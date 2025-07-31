@@ -1,0 +1,11 @@
+
+
+.nav{
+    height: 40vh;
+    width: 40vw;
+    /* background-color: aqua; */
+    gap: 20px 20px;
+}
+.nav a{
+    border-style: none;
+}

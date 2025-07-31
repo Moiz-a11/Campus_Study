@@ -1,0 +1,20 @@
+{
+  "name": "campus_study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moiz-a11/Campus_Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moiz-a11/Campus_Study/issues"
+  },
+  "homepage": "https://github.com/Moiz-a11/Campus_Study#readme",
+  "description": ""
+}
