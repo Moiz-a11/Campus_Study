@@ -1,57 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-      <style>
-        .log{
-          display: flex;
-          
-        }
-        .login{
-          margin-right: 20px;
-          
-        }
-        .login a{
-          color: black;
-        }
-      </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <style>
+    .log {
+      display: flex;
+
+    }
+
+    .login {
+      margin-right: 20px;
+
+    }
+
+    .login a {
+      color: black;
+    }
+    .navbar *{
+   
+      color: white !important;
+      
+      
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    
- <nav class="navbar navbar-expand-lg bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><i class="fa-solid fa-graduation-cap"></i></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/notes">Notes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">placement prepration</a>
-        </li>
 
-      </ul>
-      <div class="log">
-        <div class="login" ><a href="/login"><b>Login</b></a></div>
-        <div class="login"><a href=""><b>Logout</b></a></div>
-      </div>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-graduation-cap"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/notes">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">placement prepration</a>
+          </li>
 
-      <!-- <span class="navbar-text">
+        </ul>
+        <div class="log">
+          <div class="login"><a href="/login"><b>Login</b></a></div>
+          <div class="login"><a href=""><b>Logout</b></a></div>
+        </div>
+
+        <!-- <span class="navbar-text">
         Navbar text with an inline element
       </span> -->
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 </body>
+
 </html>

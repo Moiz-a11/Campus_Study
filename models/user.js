@@ -19,7 +19,9 @@ type:String
     email :{
 type:String
     },
-
+password:{
+    type :String,
+}
 
 
 })
